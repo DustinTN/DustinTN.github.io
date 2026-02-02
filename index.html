@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Dustin Nguyen</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNM4LYHNL6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MNM4LYHNL6');
+  </script>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f9fafb;
+      color: #111;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 100px auto;
+      padding: 0 24px;
+    }
+
+    h1 {
+      font-size: 2.75rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 1.5rem;
+    }
+
+    .links a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #2563eb;
+      margin-right: 14px;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Dustin Nguyen</h1>
 
-  <p>B.S. in Computer Science, University of Houston</p>
+  <div class="container">
+    <h1>Dustin Nguyen</h1>
 
-  <p>
-    <a href="https://www.cs.uh.edu/">UH Computer Science Department</a> |
-    <a href="https://www.linkedin.com/in/quang-nguyen-3319443a9/">LinkedIn</a>
-  </p>
+    <div class="subtitle">
+      B.S. in Computer Science — University of Houston
+    </div>
+
+    <div class="links">
+      <a href="https://www.cs.uh.edu" target="_blank">UH Computer Science Department</a>
+      <a href="https://www.linkedin.com/in/quang-nguyen-3319443a9/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
 </body>
 </html>
