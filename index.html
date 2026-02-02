@@ -27,6 +27,16 @@
       max-width: 720px;
       margin: 100px auto;
       padding: 0 24px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     }
 
     h1 {
@@ -44,7 +54,7 @@
       text-decoration: none;
       font-weight: 500;
       color: #2563eb;
-      margin-right: 14px;
+      margin: 0 10px;
     }
 
     .links a:hover {
@@ -52,9 +62,13 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="container">
+
+    <img src="images/headshot.jpeg" alt="Dustin Nguyen" class="profile-pic">
+
     <h1>Dustin Nguyen</h1>
 
     <div class="subtitle">
@@ -63,8 +77,10 @@
 
     <div class="links">
       <a href="https://www.cs.uh.edu" target="_blank">UH Computer Science Department</a>
+      |
       <a href="https://www.linkedin.com/in/quang-nguyen-3319443a9/" target="_blank">LinkedIn</a>
     </div>
+
   </div>
 
 </body>
